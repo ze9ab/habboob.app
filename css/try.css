@@ -1,0 +1,24 @@
+/* try.css */
+.demo .w{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.ph{width:270px;margin:auto;aspect-ratio:9/17;border-radius:42px;border:1px solid #e6b96455;background:linear-gradient(180deg,#4a2a18,#1c0e07);box-shadow:0 40px 80px #000a,inset 0 0 0 6px #120804;padding:26px 16px;text-align:center;position:relative;animation:fl 8s ease-in-out infinite}
+.ph::before{content:"";position:absolute;top:12px;left:50%;width:64px;height:6px;background:#000;border-radius:9px;transform:translateX(-50%)}
+.ring{--p:0;width:176px;aspect-ratio:1;margin:20px auto 10px;border-radius:50%;background:conic-gradient(var(--g) calc(var(--p)*1%),#ffffff18 0);display:grid;place-items:center;position:relative}
+.ring::before{content:"";position:absolute;inset:9px;border-radius:50%;background:var(--bg)}
+.ring span{position:relative;font:700 28px 'Reem Kufi',monospace;direction:ltr}
+.ph small{color:var(--g)}
+.mini{display:flex;gap:6px;justify-content:center;margin-top:18px}
+.mini i{width:30px;height:6px;border-radius:9px;background:#ffffff1c}
+.mini i.d{background:var(--g)}
+.st{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px}
+.st div{padding:26px;border-radius:24px;background:var(--sf);border:1px solid var(--ln);font-size:15px;opacity:.95}
+.st b{display:block;font:700 54px/1.2 'Reem Kufi';color:var(--g)}
+.tsc{position:relative;text-align:center;padding:34px 22px;border-radius:36px;border:1px solid var(--ln);background:linear-gradient(160deg,#e6b9641a,#ffffff05);overflow:hidden}
+.tsr{--p:0;width:250px;aspect-ratio:1;margin:18px auto;border-radius:50%;background:conic-gradient(var(--g) calc(var(--p)*1%),#ffffff1a 0);display:grid;place-items:center;position:relative;transition:.3s}
+.tsr::before{content:"";position:absolute;inset:9px;border-radius:50%;background:var(--bg)}
+.tsb{position:relative;width:214px;height:214px;border-radius:50%;border:0;cursor:pointer;color:var(--cr);background:radial-gradient(circle at 50% 35%,#e6b96430,#e6b96408);font:700 74px/1 'Reem Kufi';transition:transform .15s var(--ease)}
+.tsb:active,.tsb.pp{transform:scale(.94)}
+.tsb small{display:block;font:600 14px Cairo;color:var(--g);margin-top:4px}
+#tsT{font:700 32px 'Reem Kufi';color:var(--g)}
+#tsM{margin:10px auto 0;max-width:420px;font-size:15px;opacity:.9}
+.tsc .row{justify-content:center;margin-top:14px}
+.try2{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start;padding-bottom:70px}

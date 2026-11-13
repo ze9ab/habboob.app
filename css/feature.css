@@ -1,0 +1,13 @@
+/* feature.css */
+.bk{display:inline-flex;align-items:center;gap:8px;margin:20px 0;color:var(--g);text-decoration:none;font-weight:600}
+.bk .ic{width:18px;height:18px;transform:scaleX(-1)}
+.dh{display:flex;gap:26px;align-items:center;margin:10px 0 40px;flex-wrap:wrap}
+.dh .ib{width:88px;height:88px;border-radius:28px}
+.dh .ib .ic{width:40px;height:40px}
+.dh h2{font-size:clamp(36px,6vw,62px);line-height:1.2}
+.dh p{opacity:.75}
+.pts{display:grid;gap:10px;counter-reset:n}
+.pts div{display:flex;gap:18px;align-items:center;padding:20px 24px;border-radius:22px;background:var(--sf);border:1px solid var(--ln);counter-increment:n;font-size:18px;transition:.3s var(--ease)}
+.pts div:hover{transform:translateX(-8px);border-color:#e6b96460}
+.pts div::before{content:counter(n,decimal-leading-zero);font:700 20px 'Reem Kufi';color:var(--g);opacity:.8}
+.nv{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:44px 0 80px}

@@ -1,0 +1,9 @@
+/* faq.css */
+.faq{display:grid;gap:10px;max-width:820px;margin:0 auto;padding-bottom:80px}
+.faq details{border-radius:22px;background:var(--sf);border:1px solid var(--ln);padding:0 24px;transition:.4s var(--ease)}
+.faq details[open]{border-color:#e6b96470;background:#e6b96410}
+.faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:14px;padding:20px 0;font:700 20px 'Reem Kufi'}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .ic{margin-inline-start:auto;color:var(--g);transition:transform .4s var(--ease)}
+.faq details[open] summary .ic{transform:rotate(180deg)}
+.faq p{padding:0 0 22px;opacity:.85}
