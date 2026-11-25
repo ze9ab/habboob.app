@@ -1,0 +1,11 @@
+{
+  "books": [
+    {
+      "id": "riyad",
+      "title": "اسم الكتاب",
+      "author": "اسم المؤلف",
+      "file": "books/riyad.pdf",
+      "pages": 120
+    }
+  ]
+}
