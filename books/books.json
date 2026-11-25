@@ -1,11 +1,11 @@
 {
   "books": [
     {
-      "id": "riyad",
-      "title": "اسم الكتاب",
-      "author": "اسم المؤلف",
-      "file": "books/riyad.pdf",
-      "pages": 120
+      "id": "asly",
+      "title": "أول مرة أصلي",
+      "author": "د. خالد أبوشادي",
+      "file": "books/asly.pdf",
+      "pages": 110
     }
   ]
 }
